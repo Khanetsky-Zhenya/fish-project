@@ -2,7 +2,7 @@ import React from 'react'
 
 import classes from './styles.module.scss'
 
-import logo from '../../assets/img/logo.png'
+import { getImgUrl } from 'services'
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
             <li className={classes.header_nav_item}>Рыбаки</li>   
           </ul>
         <div className={classes.header_authorization}>
-          <img className={classes.header_authorization_userIcon} src='../../assets/img/userIcon.png' alt='иконка пользователя'/>
+          <img className={classes.header_authorization_userIcon} src={getImgUrl('icons/userIcon.png')} alt='Иконка пользователя'/>
           <p className={classes.header_authorization_userFirstName}>Дима</p>
           <p className={classes.header_authorization_userSecondName}>Долидов</p>
         </div>
