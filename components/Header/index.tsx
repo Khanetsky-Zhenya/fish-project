@@ -8,10 +8,10 @@ const Header = () => {
   return (
     <div className={classes.wrapper}>
       <div className={classes.body}>
-        <img className={classes.header_logo} src="" alt='логотип'/>
+        <img className={classes.header_logo} src={getImgUrl('logo.png')} alt='логотип'/>
           <ul className={classes.header_nav}>
             <li className={classes.header_nav_item}>Поиск водоема</li>
-            <li className={classes.header_nav_item}>Все водоемы</li>
+            <li className={classes.header_nav_item_center}>Все водоемы</li>
             <li className={classes.header_nav_item}>Рыбаки</li>   
           </ul>
         <div className={classes.header_authorization}>
