@@ -8,16 +8,16 @@ const Header = () => {
   return (
     <div className={classes.wrapper}>
       <div className={classes.body}>
-        <img className={classes.header_logo} src={getImgUrl('logo.png')} alt='логотип'/>
-          <ul className={classes.header_nav}>
-            <li className={classes.header_nav_item}>Поиск водоема</li>
-            <li className={classes.header_nav_item_center}>Все водоемы</li>
-            <li className={classes.header_nav_item}>Рыбаки</li>   
+        <img className={classes.logo} src={getImgUrl('logo.png')} alt='логотип'/>
+          <ul className={classes.nav}>
+            <li className={classes.nav_item}>Поиск водоема</li>
+            <li className={classes.nav_item_center}>Все водоемы</li>
+            <li className={classes.nav_item}>Рыбаки</li>   
           </ul>
-        <div className={classes.header_authorization}>
-          <img className={classes.header_authorization_userIcon} src={getImgUrl('icons/userIcon.png')} alt='Иконка пользователя'/>
-          <p className={classes.header_authorization_userFirstName}>Дима</p>
-          <p className={classes.header_authorization_userSecondName}>Долидов</p>
+        <div className={classes.authorization}>
+          <img className={classes.authorization_userIcon} src={getImgUrl('icons/userIcon.png')} alt='Иконка пользователя'/>
+          <p className={classes.authorization_userFirstName}>Дима</p>
+          <p className={classes.authorization_userSecondName}>Долидов</p>
         </div>
       </div>
     </div>

@@ -1,9 +1,9 @@
 .wrapper {
   width: 100%;
-  background-color: black;
+  background-color: rgb(0 0 0 /100%);
+  /*background-color: black;*/
   /*opacity: 0.5;*/
 }
-
 .body{
   display: flex;
   align-items: center;
@@ -11,8 +11,10 @@
   margin: 0 auto;
   padding: 15px 0;
 }
-
-.header_nav{
+.logo{
+  cursor: pointer; 
+}
+.nav{
   display: flex;
   justify-content: center;
   width: 80%;
@@ -20,32 +22,34 @@
   list-style: none;
   padding-left: 0px;
 }
-
-.header_nav_item, .header_nav_item_center {
+.nav_item, .nav_item_center {
   font-family: Oswald;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
+  cursor: pointer;
 }
-
-.header_nav_item_center{
+.nav_item_center{
 margin: 0 30px;
 }
-
-.header_authorization{
+.authorization{
   width: 20%;
   display: flex;
   align-items: center;
   justify-content: end;
 }
-
-.header_authorization_userFirstName, .header_authorization_userSecondName {
+.authorization_userFirstName, .authorization_userSecondName {
 margin: 0 0 0 10px;
+font-family: PT Sans;
+font-style: italic;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
 color: #FFFFFF;
+cursor: pointer;
 }
-
-.header_authorization_userSecondName {
+.authorization_userSecondName {
   margin-left: 6px;
-  }
+}
