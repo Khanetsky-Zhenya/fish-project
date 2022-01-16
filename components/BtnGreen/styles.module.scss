@@ -10,7 +10,9 @@
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: #3BAE39;
+    cursor: pointer;
 }
 .btnGreen:hover{
     background-color: #FFAD00;
+    transition: .2s;
 }
