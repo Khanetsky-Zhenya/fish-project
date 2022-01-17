@@ -1,4 +1,4 @@
-.btnGreen {
+.StandartBtn {
     padding: 15px 45px;
     font-family: Montserrat;
     font-style: normal;
@@ -12,7 +12,8 @@
     background-color: #3BAE39;
     cursor: pointer;
 }
-.btnGreen:hover{
+
+.StandartBtn:hover {
     background-color: #FFAD00;
     transition: .2s;
 }

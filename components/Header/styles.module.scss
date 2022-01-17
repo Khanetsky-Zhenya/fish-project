@@ -4,17 +4,20 @@
   /*background-color: black;*/
   /*opacity: 0.5;*/
 }
-.body{
+
+.info {
   display: flex;
   align-items: center;
   width: 85%;
   margin: 0 auto;
   padding: 15px 0;
 }
-.logo{
+
+.logo {
   cursor: pointer; 
 }
-.nav{
+
+.nav {
   display: flex;
   justify-content: center;
   width: 80%;
@@ -22,7 +25,8 @@
   list-style: none;
   padding-left: 0px;
 }
-.nav_item, .nav_item_center {
+
+.navItem {
   font-family: Oswald;
   font-style: normal;
   font-weight: bold;
@@ -31,25 +35,28 @@
   color: #FFFFFF;
   cursor: pointer;
 }
-.nav_item_center{
-margin: 0 30px;
+.navItemCenter {
+  margin: 0 30px;
 }
-.authorization{
+
+.authorization {
   width: 20%;
   display: flex;
   align-items: center;
   justify-content: end;
 }
-.authorization_userFirstName, .authorization_userSecondName {
-margin: 0 0 0 10px;
-font-family: PT Sans;
-font-style: italic;
-font-weight: bold;
-font-size: 14px;
-line-height: 18px;
-color: #FFFFFF;
-cursor: pointer;
+
+.userFirstName, .userSecondName {
+  margin: 0 0 0 10px;
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
 }
-.authorization_userSecondName {
+
+.userSecondName {
   margin-left: 6px;
 }

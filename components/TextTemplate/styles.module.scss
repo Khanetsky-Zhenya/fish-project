@@ -1,14 +1,16 @@
-.pre_text{
+.preText {
   display: flex;
   align-items: center;
-
 }
-.tire{
+
+.tire {
   width: 30px;
   height: 2px;
   background-color: rgb(255, 255, 255);
+  cursor: default;
 }
-.pre_title2{
+
+.preTitle {
   margin: 0 0 0 15px;
   font-family: 'Marck Script', cursive;
   font-style: italic;
@@ -16,8 +18,10 @@
   font-size: 25px;
   line-height: 32px;
   color: #FFAD00;
+  cursor: default;
 }
-.title{
+
+.title {
   margin: 35px 0;
   font-family: Oswald;
   font-style: normal;
@@ -26,7 +30,9 @@
   line-height: 44px;
   color: #FFFFFF;
   text-transform: uppercase;
+  cursor: default;
 }
+
 .subtitle{
   width: 75%;
   font-family: Montserrat;
@@ -36,4 +42,5 @@
   line-height: 17px;
   text-align: justify;
   color: #FFFFFF;
+  cursor: default;
 }
