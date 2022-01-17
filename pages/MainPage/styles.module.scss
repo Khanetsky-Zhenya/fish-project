@@ -9,6 +9,7 @@
 .body_left{
   width: 50%;
   height: 500px;
+  padding-top: 50px;
   background-color: blue;
 }
 .body_rigth{
@@ -62,4 +63,41 @@
 }
 .buttonGroup_right{
   margin-left: 50px;
+}
+
+.pre_title1{
+  margin-left: 15px;
+  font-family: 'Lobster', cursive;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+  color: #FFAD00;
+}
+.pre_title2{
+  margin-left: 15px;
+  font-family: 'Marck Script', cursive;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+  color: #FFAD00;
+}
+.pre_title3{
+  margin-left: 15px;
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+  color: #FFAD00;
+}
+.pre_title4{
+  margin-left: 15px;
+  font-family: 'Pattaya', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+  color: #FFAD00;
 }

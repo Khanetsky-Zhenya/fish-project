@@ -10,7 +10,7 @@ export default function Home() {
         <div className={classes.body_left}>
           <div className={classes.pre_text}>
               <div className={classes.tire}></div>
-              <p className={classes.pre_title}>станьте участником уже сегодня!</p>
+              <p className={classes.pre_title2}>станьте участником уже сегодня!</p>
           </div>
             <h2 className={classes.title}>давай отправимся на рыбалку!</h2>
             <p className={classes.subtitle}>Мы рады поддерживать и продвигать рыбалку как вид спорта и здоровый образ жизни во всем мире. Мы помогаем новичкам и опытным членам нашего клуба.</p>
