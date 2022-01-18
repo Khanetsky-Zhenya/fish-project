@@ -1,33 +1,38 @@
-.pre_text{
+.preText {
   display: flex;
   align-items: center;
-
 }
-.tire{
+
+.tire {
   width: 30px;
   height: 2px;
-  background-color: rgb(255, 255, 255);
+  background-color: #FFAD00;
 }
-.pre_title2{
+
+.preTitle {
   margin: 0 0 0 15px;
   font-family: 'Marck Script', cursive;
   font-style: italic;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 32px;
   line-height: 32px;
   color: #FFAD00;
+  cursor: default;
 }
-.title{
-  margin: 35px 0;
+
+.title {
+  margin: 30px 0;
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
-  line-height: 44px;
+  font-size: 52px;
+  line-height: 60px;
   color: #FFFFFF;
   text-transform: uppercase;
+  cursor: default;
 }
-.subtitle{
+
+.subtitle {
   width: 75%;
   font-family: Montserrat;
   font-style: normal;
@@ -36,41 +41,5 @@
   line-height: 17px;
   text-align: justify;
   color: #FFFFFF;
-}
-
-.pre_title1{
-  margin-left: 15px;
-  font-family: 'Lobster', cursive;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 32px;
-  color: #FFAD00;
-}
-.pre_title2{
-  margin-left: 15px;
-  font-family: 'Marck Script', cursive;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 32px;
-  color: #FFAD00;
-}
-.pre_title3{
-  margin-left: 15px;
-  font-family: 'Pacifico', cursive;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 32px;
-  color: #FFAD00;
-}
-.pre_title4{
-  margin-left: 15px;
-  font-family: 'Pattaya', sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 32px;
-  color: #FFAD00;
+  cursor: default;
 }
