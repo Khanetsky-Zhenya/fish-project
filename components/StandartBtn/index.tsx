@@ -4,9 +4,11 @@ import classes from './styles.module.scss'
 
 
 const StandartBtn = (props) => {
-  const { name } = props;
+  const { name, rootClass } = props;
   return (
-    <button className={classes.StandartBtn}>{name}</button>
+    <div className={rootClass}>
+      <button className={classes.standartBtn}>{name}</button>
+    </div> 
   )
 }
 

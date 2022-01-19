@@ -18,8 +18,8 @@ const Home = () => {
                 subtitle="Мы рады поддерживать и продвигать рыбалку как вид спорта и здоровый образ жизни во всем мире. Мы помогаем новичкам и опытным членам нашего клуба."
                 />
               <div className={classes.buttonGroup}>
-                <div className={classes.buttonGroupLeft}><StandartBtn name="найти водоем"/></div>
-                <div className={classes.buttonGroupRight}><StandartBtn name="стать членом клуба"/></div>
+                <StandartBtn rootClass={classes.buttonGroupLeft} name="найти водоем"/>
+                <StandartBtn  rootClass={classes.buttonGroupRight} name="стать членом клуба"/>
               </div>
             </div>
             <div className={classes.firstScreenRigthPart}></div>
@@ -34,7 +34,7 @@ const Home = () => {
                 title="поделись своим результатом!"
                 subtitle="В этом разделе приводится список всех зарегестрированных рыболовов-пользователей и составлен их рейтинг в зависимости от улова. Ты сможешь ознакомиться с их достижениями и, оставляя результаты своих рыбалок в профиле, узнать, какое место среди них занимаешь  ты сам."
               />
-              <div className={classes.button}><StandartBtn name="перейти"/></div>
+              <StandartBtn rootClass={classes.button} name="перейти"/>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@ const Home = () => {
                 title="выбери лучшее место ловли!"
                 subtitle="В этом разделе на основе специальных алгоритмов мы составили рейтинг водоемов и рек нашей страны, который опирается на результаты рыбалок пользователей. Рейтинг покажет реальную ситуацию по рыбной ловле на интересующем тебя водоеме, а также подскажет место, куда ты сможешь отправитсья в следующий раз."
               />
-              <div className={classes.button}><StandartBtn name="перейти"/></div>
+              <StandartBtn rootClass={classes.button} name="перейти"/>
             </div>
             <div className={classes.thirdScreenRigthPart}></div>
           </div>
