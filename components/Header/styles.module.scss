@@ -32,9 +32,20 @@
   line-height: 24px;
   color: #FFFFFF;
   cursor: pointer;
+  /*фича для эффекта подчеркивания*/ 
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
 }
+
+.navItem:hover {
+  background-size: 100% 2px;
+}
+
 .navItemCenter {
-  margin: 0 30px;
+  margin: 0 80px;
 }
 
 .authorization {
