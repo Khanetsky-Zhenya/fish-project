@@ -4,41 +4,75 @@
 }
 
 .tire {
-  width: 30px;
+  width: 40px;
   height: 2px;
   background-color: #FFAD00;
 }
 
-.preTitle {
+.preTitleLarge {
   margin: 0 0 0 15px;
   font-family: 'Marck Script', cursive;
   font-style: italic;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 42px;
   line-height: 32px;
   color: #FFAD00;
   cursor: default;
 }
 
-.title {
-  margin: 30px 0;
+.titleLarge {
+  margin: 60px 0;
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
-  font-size: 52px;
-  line-height: 60px;
+  font-size: 76px;
+  line-height: 86px;
   color: #FFFFFF;
   text-transform: uppercase;
   cursor: default;
 }
 
-.subtitle {
+.subtitleLarge {
+  width: 75%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: justify;
+  color: #FFFFFF;
+  cursor: default;
+}
+.preTitleSmall {
+  margin: 0 0 0 15px;
+  font-family: 'Marck Script', cursive;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+  color: #FFAD00;
+  cursor: default;
+}
+
+.titleSmall {
+  margin: 60px 0;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 86px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.subtitleSmall {
   width: 75%;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 19px;
   text-align: justify;
   color: #FFFFFF;
   cursor: default;
