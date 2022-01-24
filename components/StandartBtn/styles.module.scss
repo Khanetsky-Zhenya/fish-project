@@ -17,3 +17,24 @@
     background-color: #FFAD00;
     transition: .2s;
 }
+/*МЕДИАЗАПРОСЫ*/
+@media (min-width: 1200px) and (max-width: 1599px){
+  }
+  
+@media (min-width: 992px) and (max-width: 1199px) {
+    .standartBtn {
+        padding: 15px 35px;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 991px) {
+    .standartBtn {
+        padding: 15px 35px;
+    }
+}
+  
+@media (max-width: 480px) {
+}
+  
+@media (max-width: 360px) {
+}

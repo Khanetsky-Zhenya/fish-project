@@ -69,3 +69,22 @@
 .userSecondName {
   margin-left: 6px;
 }
+
+/*МЕДИАЗАПРОСЫ*/
+@media (min-width: 1200px) and (max-width: 1599px){
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navItemCenter {
+    margin: 0 25px;
+  }
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 360px) {
+}

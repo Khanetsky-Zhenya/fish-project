@@ -87,3 +87,87 @@
     line-height: 19px;
   }
 }
+
+/*МЕДИАЗАПРОСЫ*/
+@media (min-width: 1200px) and (max-width: 1599px){
+  .largeSkin {
+    .preTitle {
+      font-size: 32px;
+      line-height: 32px;
+    }
+  
+    .title {
+      margin: 30px 0;
+      font-size: 62px;
+      line-height: 86px;
+    }
+  
+    .subtitle {
+      font-size: 18px;
+      line-height: 19px;
+    }
+  }
+
+  .buttonGroup {
+    width: 80%;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .largeSkin {
+    .preTitle {
+      font-size: 32px;
+      line-height: 32px;
+    }
+  
+    .title {
+      margin: 30px 0;
+      font-size: 62px;
+      line-height: 86px;
+    }
+  
+    .subtitle {
+      font-size: 18px;
+      line-height: 19px;
+    }
+  }
+
+  .buttonGroup {
+    width: 95%;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .largeSkin {
+    .preTitle {
+      font-size: 26px;
+      line-height: 32px;
+    }
+  
+    .title {
+      width: 70%;
+      margin: 30px 0;
+      font-size: 48px;
+      line-height:57px;
+    }
+  
+    .subtitle {
+      width: 70%;
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+  
+  .buttonGroup {
+    width: 80%;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 360px) {
+}
