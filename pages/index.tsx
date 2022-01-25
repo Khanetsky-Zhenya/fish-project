@@ -1,7 +1,7 @@
 import classes from './MainPage/styles.module.scss'
 import PageWrapper from "../components/layouts/PageWrapper"
 import Header from 'components/Header'
-import StandartBtn from 'components/StandartBtn'
+import Footer from 'components/Footer'
 import TextTemplate from './MainPage/components/TextTemplate'
 
 const Home = () => {
@@ -44,12 +44,13 @@ const Home = () => {
                 pretitle="узнай, какие водоемы самые популярные!"
                 title="выбери лучшее место ловли!"
                 subtitle="В этом разделе на основе специальных алгоритмов мы составили рейтинг водоемов и рек нашей страны, который опирается на результаты рыбалок пользователей. Рейтинг покажет реальную ситуацию по рыбной ловле на интересующем тебя водоеме, а также подскажет место, куда ты сможешь отправитсья в следующий раз."
-                rightBtnText="перейти"
+                leftBtnText="перейти"
               />
             </div>
             <div className={classes.thirdScreenRigthPart}></div>
           </div>
         </div>
+        <Footer />
       </div>
     </PageWrapper>
   )

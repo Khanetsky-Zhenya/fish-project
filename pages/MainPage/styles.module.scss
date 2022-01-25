@@ -9,15 +9,17 @@
   width: 100%;
   background: url(../../assets/img/secondImage.png);
   background-size: cover;
-  height: 100%;
-  margin-top: 150px;
+  height: auto;
+  margin-top: 200px;
 }
 
 .backgrounThirdImage {
   width: 100%;
   background: url(../../assets/img/thirdImage.png);
   background-size: cover;
-  height: 100vh;
+  height: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 
 .container {
@@ -50,12 +52,14 @@
 
 .secondScreenRigthPart {
   width: 50%;
-  padding-top: 80px;
+  padding-top: 305px;
+  padding-bottom: 85px;
 }
 
 .thirdScreenLeftPart {
   width: 50%;
-  padding-top: 80px;
+  padding-top: 305px;
+  padding-bottom: 85px
 }
 
 .thirdScreenRigthPart {

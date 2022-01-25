@@ -1,0 +1,93 @@
+.backgrounFooterImage {
+  width: 100%;
+  background: url(../../assets/img/underFooterImage.png);
+  background-size: cover;
+  height: 150px;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: rgb(0 0 0 /100%);
+}
+
+.info {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  padding: 50px 0 25px 0;
+}
+
+.nav {
+  display: flex;
+  width: 80%;
+  margin: 0;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.navItem {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+  /*фича для эффекта подчеркивания*/ 
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+.navItem:hover {
+  background-size: 100% 2px;
+}
+
+.navItemCenter {
+  margin: 0 80px;
+}
+
+.socialNetwork {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.networkIconCenter {
+  margin: 0 30px;
+}
+
+.networkIcon:hover {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.copyright {
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/*МЕДИАЗАПРОСЫ*/
+@media (min-width: 1200px) and (max-width: 1599px){
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 360px) {
+}

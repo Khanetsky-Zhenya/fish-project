@@ -1,7 +1,6 @@
 .buttonGroup {
   display: flex;
   position: relative;
-  margin-top: 100px;
 }
 
 .leftBtn {
@@ -69,22 +68,32 @@
     font-size: 20px;
     line-height: 19px;
   }
+
+  .buttonGroup {
+    margin-top: 100px;
+  }
 }
 
 .smallSkin {
   .preTitle {
-    font-size: 25px;
+    font-size: 32px;
     line-height: 32px;
   }
 
   .title {
-    font-size: 46px;
-    line-height: 86px;
+    margin: 35px 0;
+    font-size: 55px;
+    /*line-height: 86px;*/
   }
 
   .subtitle {
+    margin: 0;
     font-size: 14px;
     line-height: 19px;
+  }
+
+  .buttonGroup {
+    margin-top: 50px;
   }
 }
 
@@ -106,11 +115,11 @@
       font-size: 18px;
       line-height: 19px;
     }
-  }
 
-  .buttonGroup {
-    width: 80%;
-    margin-top: 60px;
+    .buttonGroup {
+      width: 80%;
+      margin-top: 60px;
+    }
   }
 }
 
@@ -131,12 +140,12 @@
       font-size: 18px;
       line-height: 19px;
     }
-  }
 
-  .buttonGroup {
-    width: 95%;
-    margin-top: 60px;
-  }
+    .buttonGroup {
+      width: 95%;
+      margin-top: 60px;
+    }
+  } 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -158,12 +167,14 @@
       font-size: 14px;
       line-height: 19px;
     }
+
+    .buttonGroup {
+      width: 80%;
+      margin-top: 40px;
+    }
   }
   
-  .buttonGroup {
-    width: 80%;
-    margin-top: 40px;
-  }
+
 }
 
 @media (max-width: 480px) {
