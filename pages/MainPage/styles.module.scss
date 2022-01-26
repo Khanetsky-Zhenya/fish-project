@@ -113,6 +113,7 @@
   .backgrounMainImage {
     background-position: center;
   }
+
   .backgrounSecondImage {
     margin-top: 130px;
     background-position: center;
@@ -120,7 +121,7 @@
 
   .backgrounThirdImage {
     margin-top: 60px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     background-position: center;
   }
 
@@ -151,6 +152,21 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .backgrounMainImage {
+    background-position: center;
+  }
+
+  .backgrounSecondImage {
+    margin-top: 70px;
+    background-position: center;
+  }
+
+  .backgrounThirdImage {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-position: center;
+  }
+
   .firstScreenLeftPart {
     width: 100%;
     padding-top: 100px;
@@ -158,6 +174,26 @@
 
   .firstScreenRigthPart {
     width: 0%;
+  }
+
+  .secondScreenLeftPart {
+    width: 30%;
+  }
+
+  .secondScreenRigthPart {
+    width: 70%;
+    padding-top: 200px;
+    padding-bottom: 70px;
+  }
+  
+  .thirdScreenLeftPart {
+    width: 70%;
+    padding-top: 140px;
+    padding-bottom: 70px;
+  }
+
+  .thirdScreenRigthPart {
+    width: 30%;
   }
 }
 

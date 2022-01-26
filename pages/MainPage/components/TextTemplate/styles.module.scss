@@ -140,7 +140,7 @@
     }
   
     .subtitle {
-      font-size: 18px;
+      font-size: 14px;
       line-height: 19px;
     }
 
@@ -199,6 +199,29 @@
       margin-top: 40px;
     }
   }
+
+  .smallSkin {
+    .preTitle {
+      font-size: 18px;
+      line-height: 0px;
+    }
+  
+    .title {
+      margin: 20px 0;
+      font-size: 32px;
+      line-height: 30px;
+    }
+  
+    .subtitle {
+      margin: 0;
+      font-size: 7px;
+      line-height: 11px;
+    }
+  
+    .buttonGroup {
+      margin-top: 25Spx;
+    }
+  } 
 }
 
 @media (max-width: 480px) {
