@@ -73,6 +73,16 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1399px){
+  .backgrounMainImage {
+    background-position: center;
+  }
+  .backgrounSecondImage {
+    background-position: center;
+  }
+
+  .backgrounThirdImage {
+    background-position: center;
+  }
   .firstScreenLeftPart {
     width: 100%;
     padding-top: 130px;
@@ -100,13 +110,18 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .backgrounMainImage {
+    background-position: center;
+  }
   .backgrounSecondImage {
     margin-top: 130px;
+    background-position: center;
   }
 
   .backgrounThirdImage {
     margin-top: 60px;
     margin-bottom: 70px;
+    background-position: center;
   }
 
   .firstScreenLeftPart {
@@ -140,13 +155,13 @@
     width: 100%;
     padding-top: 100px;
   }
+
   .firstScreenRigthPart {
     width: 0%;
   }
 }
 
 @media (max-width: 480px) {
-
 }
 
 @media (max-width: 360px) {
