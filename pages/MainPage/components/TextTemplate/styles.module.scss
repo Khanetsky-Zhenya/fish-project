@@ -98,7 +98,10 @@
 }
 
 /*МЕДИАЗАПРОСЫ*/
-@media (min-width: 1200px) and (max-width: 1599px){
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+}
+@media (min-width: 1200px) and (max-width: 1399px){
   .largeSkin {
     .preTitle {
       font-size: 32px;
@@ -146,6 +149,29 @@
       margin-top: 60px;
     }
   } 
+
+  .smallSkin {
+    .preTitle {
+      font-size: 26px;
+      line-height: 32px;
+    }
+  
+    .title {
+      margin: 20px 0;
+      font-size: 46px;
+      line-height: 55px;
+    }
+  
+    .subtitle {
+      margin: 0;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  
+    .buttonGroup {
+      margin-top: 25Spx;
+    }
+  }  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -173,8 +199,6 @@
       margin-top: 40px;
     }
   }
-  
-
 }
 
 @media (max-width: 480px) {

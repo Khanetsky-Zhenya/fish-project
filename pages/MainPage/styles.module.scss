@@ -68,17 +68,70 @@
 }
 
 /*МЕДИАЗАПРОСЫ*/
-@media (min-width: 1200px) and (max-width: 1599px){
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
   .firstScreenLeftPart {
     width: 100%;
     padding-top: 130px;
   }
+
+  .secondScreenLeftPart {
+    width: 45%;
+  }
+  
+  .secondScreenRigthPart {
+    width: 55%;
+    padding-top: 305px;
+    padding-bottom: 85px;
+  }
+
+  .thirdScreenLeftPart {
+    width: 60%;
+    padding-top: 305px;
+    padding-bottom: 85px;
+  }
+  
+  .thirdScreenRigthPart {
+    width: 40%;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .backgrounSecondImage {
+    margin-top: 130px;
+  }
+
+  .backgrounThirdImage {
+    margin-top: 60px;
+    margin-bottom: 70px;
+  }
+
   .firstScreenLeftPart {
     width: 100%;
     padding-top: 110px;
+  }
+
+  .secondScreenLeftPart {
+    width: 45%;
+  }
+
+  .secondScreenRigthPart {
+    width: 55%;
+    padding-top: 200px;
+    padding-bottom: 70px;
+  }
+  
+  .thirdScreenLeftPart {
+    width: 55%;
+    padding-top: 140px;
+    padding-bottom: 70px;
+  }
+
+  .thirdScreenRigthPart {
+    width: 45%;
   }
 }
 
