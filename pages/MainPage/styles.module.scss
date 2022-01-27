@@ -29,12 +29,8 @@
 }
 
 .firstScreenLeftPart {
-  width: 50%;
-  padding-top: 200px;
-}
-
-.firstScreenRigthPart {
-  width: 50%;
+  width: 750px;
+  margin-top: 150px;
 }
 
 .buttonGroupRight{
@@ -67,7 +63,7 @@
   padding-top: 80px;
 }
 
-/*МЕДИАЗАПРОСЫ*/
+/*Media queries*/
 @media (min-width: 1400px) and (max-width: 1599px) {
 
 }
@@ -76,6 +72,7 @@
   .backgrounMainImage {
     background-position: center;
   }
+
   .backgrounSecondImage {
     background-position: center;
   }
@@ -83,9 +80,10 @@
   .backgrounThirdImage {
     background-position: center;
   }
+
   .firstScreenLeftPart {
-    width: 100%;
-    padding-top: 130px;
+    width: 600px;
+    margin-top: 200px;
   }
 
   .secondScreenLeftPart {
@@ -127,7 +125,6 @@
 
   .firstScreenLeftPart {
     width: 100%;
-    padding-top: 110px;
   }
 
   .secondScreenLeftPart {

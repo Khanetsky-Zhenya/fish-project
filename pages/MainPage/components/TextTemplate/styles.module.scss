@@ -44,7 +44,6 @@
 }
 
 .subtitle {
-  width: 75%;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
@@ -70,7 +69,17 @@
   }
 
   .buttonGroup {
-    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .leftBtn {
+    position: relative;
+  }
+
+  .rightBtn {
+    position: relative;
   }
 }
 
@@ -88,7 +97,7 @@
 
   .subtitle {
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 19px;
   }
 
@@ -110,8 +119,8 @@
   
     .title {
       margin: 30px 0;
-      font-size: 62px;
-      line-height: 86px;
+      font-size: 52px;
+      line-height: 70px;
     }
   
     .subtitle {
@@ -120,8 +129,7 @@
     }
 
     .buttonGroup {
-      width: 80%;
-      margin-top: 60px;
+      justify-content: space-between;
     }
   }
 }
@@ -140,8 +148,8 @@
     }
   
     .subtitle {
-      font-size: 14px;
-      line-height: 19px;
+      font-size: 20px;
+      line-height: 24px;
     }
 
     .buttonGroup {
@@ -169,7 +177,7 @@
     }
   
     .buttonGroup {
-      margin-top: 25Spx;
+      margin-top: 25px;
     }
   }  
 }
@@ -177,25 +185,22 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .largeSkin {
     .preTitle {
-      font-size: 22px;
+      font-size: 24px;
       line-height: 32px;
     }
-  
+
     .title {
-      width: 70%;
       margin: 30px 0;
-      font-size: 48px;
+      font-size: 44px;
       line-height:57px;
     }
-  
+
     .subtitle {
-      width: 60%;
-      font-size: 12px;
+      font-size: 16px;
       line-height: 15px;
     }
 
     .buttonGroup {
-      width: 80%;
       margin-top: 40px;
     }
   }
