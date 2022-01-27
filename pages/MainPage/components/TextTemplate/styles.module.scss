@@ -225,6 +225,58 @@
 }
 
 @media (max-width: 480px) {
+  .tire {
+    width: 20px;
+  }
+
+  .largeSkin {
+    .preTitle {
+      font-size: 16px;
+      line-height: 0px;
+    }
+  
+    .title {
+      width: 70%;
+      margin: 25px 0;
+      font-size: 32px;
+      line-height:36px;
+    }
+  
+    .subtitle {
+      width: 60%;
+      font-size: 10px;
+      line-height: 12px;
+    }
+
+    .buttonGroup {
+      width: 80%;
+      margin-top: 40px;
+    }
+  }
+
+  .smallSkin {
+    .preTitle {
+      font-size: 10px;
+      line-height: 0px;
+    }
+  
+    .title {
+      margin: 15px 0;
+      font-size: 25px;
+      line-height: 27px;
+    }
+  
+    .subtitle {
+      width: 90%;
+      margin: 0;
+      font-size: 6px;
+      line-height: 7px;
+    }
+  
+    .buttonGroup {
+      margin-top: 0px;
+    }
+  } 
 }
 
 @media (max-width: 360px) {

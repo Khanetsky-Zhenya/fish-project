@@ -84,6 +84,18 @@
 }
 
 @media (max-width: 480px) {
+  .logo {
+    display: none; 
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .authorization {
+    width: 100%;
+    justify-content: flex-end;
+  }
 }
 
 @media (max-width: 360px) {

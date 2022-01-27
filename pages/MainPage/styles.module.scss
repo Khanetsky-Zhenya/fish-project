@@ -202,6 +202,53 @@
 }
 
 @media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  .backgrounMainImage {
+    background-position: center;
+  }
+
+  .backgrounSecondImage {
+    margin-top: 70px;
+    background-position: center;
+  }
+
+  .backgrounThirdImage {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-position: center;
+  }
+
+  .firstScreenLeftPart {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .firstScreenRigthPart {
+    width: 0%;
+  }
+
+  .secondScreenLeftPart {
+    width: 40%;
+  }
+
+  .secondScreenRigthPart {
+    width: 60%;
+    padding-top: 110px;
+    padding-bottom: 45px;
+  }
+  
+  .thirdScreenLeftPart {
+    width: 60%;
+    padding-top: 75px;
+    padding-bottom: 40px;
+  }
+
+  .thirdScreenRigthPart {
+    width: 40%;
+  }
 }
 
 @media (max-width: 360px) {

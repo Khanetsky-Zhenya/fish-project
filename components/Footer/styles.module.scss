@@ -95,6 +95,37 @@
 }
 
 @media (max-width: 480px) {
+  .backgrounFooterImage {
+    background-repeat: no-repeat;
+    height: 77px;
+  }
+
+  .info {
+    padding: 0 0 0 0;
+  }
+
+  .nav {
+    display: block; 
+  }
+
+  .navItemCenter {
+    margin: 0 0px;
+  }
+
+  .navItem {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .networkIconCenter {
+    margin: 0 15px;
+  }
+
+  .copyright {
+    padding: 4px 0;
+    font-size: 8px;
+  }
 }
 
 @media (max-width: 360px) {
