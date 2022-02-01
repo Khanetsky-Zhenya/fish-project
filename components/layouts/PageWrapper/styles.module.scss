@@ -1,0 +1,16 @@
+$HEADER_HEIGHT: 65px;
+$FOOTER_HEIGHT: 137px;
+
+.wrapper {
+  min-height: 100vh;
+}
+
+.body {
+  min-height: calc(100vh - #{$FOOTER_HEIGHT});
+}
+
+.noMainPage {
+  .body {
+    padding-top: $HEADER_HEIGHT;
+  }
+}

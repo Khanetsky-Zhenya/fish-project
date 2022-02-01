@@ -1,19 +1,21 @@
-import React from 'react'
-
-import classes from './styles.module.scss'
+import React, { FC } from 'react'
+import Link from 'next/link'
+import cn from 'classnames'
 import classNames from 'classnames'
 import { getImgUrl } from 'services'
 
-const Header = () => {
+import classes from './styles.module.scss'
+
+const Header: FC<HeaderProps> = ({ isMainPage }) => {
   return (
-    <div className={classes.wrapper}>
+    <div className={cn(classes.wrapper, isMainPage && classes.mainPageHeaderWrapper)}>
       <div className={classes.info}>
-        <img className={classes.logo} src={getImgUrl('logo.png')} alt='логотип'/>
-          <ul className={classes.nav}>
-            <li className={classes.navItem}>Поиск водоема</li>
-            <li className={classNames(classes.navItem, classes.navItemCenter)}>Все водоемы</li>
-            <li className={classes.navItem}>Рыбаки</li>   
-          </ul>
+        <Link href={'/'}><div className={classes.logo}><img src={getImgUrl('logo.png')} alt='Fishing Club'/></div></Link>
+        <ul className={classes.nav}>
+          <Link href={'/'}><li className={classes.navItem}>Поиск водоема</li></Link>
+          <Link href={'/reservoirs'}><li className={classNames(classes.navItem, classes.navItemCenter)}>Все водоемы</li></Link>
+          <Link href={'/'}><li className={classes.navItem}>Рыбаки</li></Link>
+        </ul>
         <div className={classes.authorization}>
           <img className={classes.userIcon} src={getImgUrl('icons/userIcon.png')} alt='Иконка пользователя'/>
           <p className={classes.userFirstName}>Дима</p>
@@ -22,6 +24,10 @@ const Header = () => {
       </div>
     </div>
   )
+}
+
+interface HeaderProps {
+  isMainPage: boolean
 }
 
 export default Header

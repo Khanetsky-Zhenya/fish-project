@@ -1,0 +1,9 @@
+$HEADER_HEIGHT: 65px;
+
+.wrapper {
+  min-height: 100vh;
+}
+
+.body {
+  padding-top: $HEADER_HEIGHT;
+}
