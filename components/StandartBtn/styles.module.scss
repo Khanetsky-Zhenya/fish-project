@@ -1,0 +1,42 @@
+.standartBtn {
+    padding: 17px 45px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #3BAE39;
+    cursor: pointer;
+}
+
+.standartBtn:hover {
+    background-color: #FFAD00;
+    transition: .2s;
+}
+/*МЕДИАЗАПРОСЫ*/
+@media (min-width: 1200px) and (max-width: 1599px){
+  }
+  
+@media (min-width: 992px) and (max-width: 1199px) {
+    .standartBtn {
+        padding: 15px 35px;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 991px) {
+    .standartBtn {
+        padding: 13px 35px;
+        font-size: 14px;
+    }
+}
+  
+@media (max-width: 480px) {
+
+}
+  
+@media (max-width: 360px) {
+}

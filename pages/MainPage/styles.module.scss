@@ -1,3 +1,252 @@
-.text {
-  color: red;
+.backgrounMainImage {
+  width: 100%;
+  background: url(../../assets/img/mainImage.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+.backgrounSecondImage {
+  width: 100%;
+  background: url(../../assets/img/secondImage.png);
+  background-size: cover;
+  height: auto;
+  margin-top: 200px;
+}
+
+.backgrounThirdImage {
+  width: 100%;
+  background: url(../../assets/img/thirdImage.png);
+  background-size: cover;
+  height: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.firstScreenLeftPart {
+  width: 750px;
+  margin-top: 150px;
+}
+
+.buttonGroupRight{
+  margin-left: 100px;
+}
+
+.button {
+  padding-bottom: 40px;
+}
+
+.secondScreenLeftPart {
+  width: 50%;
+  padding-top: 80px;
+}
+
+.secondScreenRigthPart {
+  width: 50%;
+  padding-top: 305px;
+  padding-bottom: 85px;
+}
+
+.thirdScreenLeftPart {
+  width: 50%;
+  padding-top: 305px;
+  padding-bottom: 85px
+}
+
+.thirdScreenRigthPart {
+  width: 50%;
+  padding-top: 80px;
+}
+
+/*Media queries*/
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+  .backgrounMainImage {
+    background-position: center;
+  }
+
+  .backgrounSecondImage {
+    background-position: center;
+  }
+
+  .backgrounThirdImage {
+    background-position: center;
+  }
+
+  .firstScreenLeftPart {
+    width: 600px;
+    margin-top: 200px;
+  }
+
+  .secondScreenLeftPart {
+    width: 45%;
+  }
+  
+  .secondScreenRigthPart {
+    width: 55%;
+    padding-top: 305px;
+    padding-bottom: 85px;
+  }
+
+  .thirdScreenLeftPart {
+    width: 60%;
+    padding-top: 305px;
+    padding-bottom: 85px;
+  }
+  
+  .thirdScreenRigthPart {
+    width: 40%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .backgrounMainImage {
+    background-position: center;
+  }
+
+  .backgrounSecondImage {
+    margin-top: 130px;
+    background-position: center;
+  }
+
+  .backgrounThirdImage {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-position: center;
+  }
+
+  .firstScreenLeftPart {
+    width: 100%;
+  }
+
+  .secondScreenLeftPart {
+    width: 45%;
+  }
+
+  .secondScreenRigthPart {
+    width: 55%;
+    padding-top: 200px;
+    padding-bottom: 70px;
+  }
+  
+  .thirdScreenLeftPart {
+    width: 55%;
+    padding-top: 140px;
+    padding-bottom: 70px;
+  }
+
+  .thirdScreenRigthPart {
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 90%;
+  }
+
+  .backgrounMainImage {
+    background-position: center;
+  }
+
+  .backgrounSecondImage {
+    margin-top: 70px;
+    background-position: center;
+  }
+
+  .backgrounThirdImage {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-position: center;
+  }
+
+  .firstScreenLeftPart {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .firstScreenRigthPart {
+    width: 0%;
+  }
+
+  .secondScreenLeftPart {
+    width: 40%;
+  }
+
+  .secondScreenRigthPart {
+    width: 60%;
+    padding-top: 150px;
+    padding-bottom: 70px;
+  }
+  
+  .thirdScreenLeftPart {
+    width: 60%;
+    padding-top: 110px;
+    padding-bottom: 70px;
+  }
+
+  .thirdScreenRigthPart {
+    width: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  .backgrounMainImage {
+    background-position: center;
+  }
+
+  .backgrounSecondImage {
+    margin-top: 70px;
+    background-position: center;
+  }
+
+  .backgrounThirdImage {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-position: center;
+  }
+
+  .firstScreenLeftPart {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .firstScreenRigthPart {
+    width: 0%;
+  }
+
+  .secondScreenLeftPart {
+    width: 40%;
+  }
+
+  .secondScreenRigthPart {
+    width: 60%;
+    padding-top: 110px;
+    padding-bottom: 45px;
+  }
+  
+  .thirdScreenLeftPart {
+    width: 60%;
+    padding-top: 75px;
+    padding-bottom: 40px;
+  }
+
+  .thirdScreenRigthPart {
+    width: 40%;
+  }
+}
+
+@media (max-width: 360px) {
 }
