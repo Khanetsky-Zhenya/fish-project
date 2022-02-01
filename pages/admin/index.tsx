@@ -7,7 +7,7 @@ import classes from './styles.module.scss'
 export const AdminPage = () => {
   return (
     <AdminPageWrapper>
-      <div>test</div>
+      <h2 className={classes.header}>Добро пожаловать, уважаемый Админ!</h2>
     </AdminPageWrapper>
   )
 }
