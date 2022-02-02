@@ -1,0 +1,51 @@
+.title {
+    margin: 35px 0 40px 0;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+.allRegionButton {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto 40px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.titleRegionButton {
+    margin: 0;
+    cursor: default;
+}
+
+.regionButton {
+    width: 13%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.regionButton:hover {
+    background: #EEEAEA;
+    border: 2px solid #FFAD00;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
