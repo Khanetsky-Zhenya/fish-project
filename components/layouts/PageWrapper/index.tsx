@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import cn from 'classnames'
 
 import Footer from '../../Footer'
@@ -7,7 +7,7 @@ import Header from '../../Header'
 import classes from './styles.module.scss'
 import {useRouter} from "next/router";
 
-const PageWrapper = ({ children }) => {
+const PageWrapper: FC<PageWrapperProps> = ({ children }) => {
   const { pathname } = useRouter()
   const isMainPage = pathname === '/'
 
@@ -20,6 +20,10 @@ const PageWrapper = ({ children }) => {
       <Footer />
     </div>
   )
+}
+
+interface PageWrapperProps {
+  children: any
 }
 
 export default PageWrapper
