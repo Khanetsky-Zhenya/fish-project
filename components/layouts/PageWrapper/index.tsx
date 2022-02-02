@@ -23,7 +23,7 @@ const PageWrapper: FC<PageWrapperProps> = ({ children }) => {
 }
 
 interface PageWrapperProps {
-  children: any
+  children?: any
 }
 
 export default PageWrapper
