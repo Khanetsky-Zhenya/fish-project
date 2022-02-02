@@ -22,18 +22,22 @@ import classes from './styles.module.scss'
 export const AddReservoir: FC = () => {
   const [data, setData] = useState({
     name: '',
-    type: '',
+    type: 'Озеро',
     isPaid: false,
-    fishTypes: []
+    fishTypes: [],
+    area: 'Минская',
+    region: ''
   });
 
-  const handleTypeChange = (event: SelectChangeEvent) => {
-    setData({ ...data, type: event.target.value})
+  const handleSelectChange = (event: SelectChangeEvent, field) => {
+    setData({ ...data, [field]: event.target.value})
   };
 
   const handleFishTypesChange = (event, values) => {
     setData({ ...data, fishTypes: values })
   }
+
+  console.log(data)
 
   return (
     <AdminPageWrapper>
@@ -44,13 +48,29 @@ export const AddReservoir: FC = () => {
             <TextField className={classes.fieldMargin} inputProps={{inputMode: 'numeric', pattern: '[0-9]*'}}
                        size={'medium'} id="name" label="Название водоема" variant="outlined"/>
             <div className={cn(classes.fieldMargin, classes.row)}>
-              <FormControlLabel className={classes.fieldMargin} control={<Switch/>} label="Платный?"/>
+              <FormControlLabel control={<Switch/>} label="Платный?"/>
               <TextField
                 id="Square"
                 label="Площадь, кв. км"
                 type="number"
               />
             </div>
+            <FormControl className={classes.fieldMargin}>
+              <InputLabel id="type-input-label">Область</InputLabel>
+              <Select
+                id="area"
+                value={data.area}
+                label="Область"
+                onChange={(e) => handleSelectChange(e, 'area')}
+              >
+                <MenuItem value="Минская">Минская</MenuItem>
+                <MenuItem value="Витебская">Витебская</MenuItem>
+                <MenuItem value="Могилевская">Могилевская</MenuItem>
+                <MenuItem value="Гомельская">Гомельская</MenuItem>
+                <MenuItem value="Брестская">Брестская</MenuItem>
+                <MenuItem value="Гродненская">Гродненская</MenuItem>
+              </Select>
+            </FormControl>
           </FormControl>
           <FormControl sx={{width: '46%'}}>
             <FormControl className={classes.fieldMargin}>
@@ -59,11 +79,11 @@ export const AddReservoir: FC = () => {
                 id="type"
                 value={data.type}
                 label="Тип водоема"
-                onChange={handleTypeChange}
+                onChange={(e) => handleSelectChange(e, 'type')}
               >
-                <MenuItem value="like">Озеро</MenuItem>
-                <MenuItem value="river">Река</MenuItem>
-                <MenuItem value="water-reservoir">Водохранилище</MenuItem>
+                <MenuItem value="Озеро">Озеро</MenuItem>
+                <MenuItem value="Река">Река</MenuItem>
+                <MenuItem value="Водохранилище">Водохранилище</MenuItem>
               </Select>
             </FormControl>
             <FormControl className={classes.fieldMargin}>
@@ -84,6 +104,22 @@ export const AddReservoir: FC = () => {
                   )}
                 />
               </Stack>
+            </FormControl>
+            <FormControl className={classes.fieldMargin}>
+              <InputLabel id="type-input-label">Район</InputLabel>
+              <Select
+                id="region"
+                value={data.region}
+                label="Район"
+                onChange={(e) => handleSelectChange(e, 'area')}
+              >
+                <MenuItem value="Минская">Минская</MenuItem>
+                <MenuItem value="Витебская">Витебская</MenuItem>
+                <MenuItem value="Могилевская">Могилевская</MenuItem>
+                <MenuItem value="Гомельская">Гомельская</MenuItem>
+                <MenuItem value="Брестская">Брестская</MenuItem>
+                <MenuItem value="Гродненская">Гродненская</MenuItem>
+              </Select>
             </FormControl>
           </FormControl>
         </Box>
