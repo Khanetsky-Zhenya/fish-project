@@ -1,5 +1,5 @@
 import PageWrapper from 'components/layouts/PageWrapper'
-import ReservoirCard from './components/ReservoirCard'
+import { ReservoirCard } from 'features/Reservoirs/components'
 
 import classes from './styles.module.scss'
 

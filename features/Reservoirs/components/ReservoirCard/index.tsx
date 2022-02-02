@@ -1,9 +1,9 @@
 import React from 'react'
+import { getImgUrl } from 'services'
 
 import classes from './styles.module.scss'
-import {getImgUrl} from 'services'
 
-const ReservoirCard = () => {
+export const ReservoirCard = () => {
   return (
         <div className={classes.reservoirCard}>
             <img className={classes.reservoirImage} src={getImgUrl('reservoir/zapadnaya_dvina.jpg')} alt="фото водоёма" />

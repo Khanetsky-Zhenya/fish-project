@@ -1,6 +1,6 @@
-import PageWrapper from '../components/layouts/PageWrapper'
-import classes from './MainPage/styles.module.scss'
-import TextTemplate from './MainPage/components/TextTemplate'
+import PageWrapper from 'components/layouts/PageWrapper'
+import classes from 'features/MainPage/styles.module.scss'
+import { TextTemplate } from 'features/MainPage/components'
 
 const Home = () => {
   return (
