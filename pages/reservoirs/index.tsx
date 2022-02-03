@@ -18,6 +18,9 @@ export const ReservoirsPage = () => {
           <button className={classes.regionButton}>Могилевская</button>
         </div>
         <ReservoirCard/>
+        <ReservoirCard/>
+        <ReservoirCard/>
+        <ReservoirCard/>
       </div>
     </PageWrapper>
   )

@@ -1,16 +1,16 @@
 .reservoirCard {
     display: flex;
-    width: 80%;
-    margin: 0 auto 25px;
+    width: 55%;
+    margin: 0 auto 15px;
 }
 
 .reservoirImage {
-    width: 30%;
+    width: 23%;
 }
 
 .reservoirInfo{
-    width: 70%;
-    padding: 20px;
+    width: 77%;
+    padding: 10px;
     background: rgba(243, 242, 242, 0.51);
     border: 1px solid #EEEAEA;
 }
@@ -20,8 +20,8 @@
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 53px;
+    font-size: 24px;
+    line-height: 22px;
     color: #363333;
     text-transform: uppercase;
     cursor: default;
@@ -29,7 +29,7 @@
 
 .position {
     display: flex;
-    margin: 15px 0 0 0;
+    margin: 5px 0 0 0;
 }
 
 .positionNumber {
@@ -37,8 +37,8 @@
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 25px;
     color: #FFAD00;
 }
 
@@ -47,15 +47,15 @@
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 25px;
     color: #6D6A6A;
 }
 
 .allParams {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .paramsBlock {
@@ -68,8 +68,8 @@
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     color: #83827F;
 }
 
@@ -79,7 +79,7 @@
     font-family: Oswald;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 15px;
+    line-height: 22px;
     color: #4A4A4A;
 }
