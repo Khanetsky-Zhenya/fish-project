@@ -63,6 +63,48 @@
   padding-top: 80px;
 }
 
+.aboutProject {
+  width: 85%;
+  margin: 0 auto 50px;
+  display: flex;
+}
+
+.cshukaImgLeft, .cshukaImgRight {
+  width: 25%;
+  height: auto;
+  padding: 50px 50px;
+}
+
+.cshukaImgRight {
+  transform: scale(-1, 1);
+}
+ 
+.wrapper {
+  width: 50%;
+}
+
+.title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 44px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: default;
+}
+.subtitle {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+  cursor: default;
+}
+
 /*Media queries*/
 @media (min-width: 1400px) and (max-width: 1599px) {
 
