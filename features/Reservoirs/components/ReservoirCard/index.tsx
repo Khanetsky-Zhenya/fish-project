@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { getImgUrl } from 'services'
 
 import classes from './styles.module.scss'

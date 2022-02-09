@@ -8,14 +8,14 @@ export const ReservoirsPage = () => {
     <PageWrapper>
       <div className={classes.container}>
         <h2 className={classes.title}>водоемы беларуси</h2>
-        <div className={classes.allRegionButton}>
-          <p className={classes.titleRegionButton}>Области:</p>
-          <button className={classes.regionButton}>Брестская</button>
-          <button className={classes.regionButton}>Витебская</button>
-          <button className={classes.regionButton}>Гомельская</button>
-          <button className={classes.regionButton}>Гродненская</button>
-          <button className={classes.regionButton}>Минская</button>
-          <button className={classes.regionButton}>Могилевская</button>
+        <div className={classes.regionsWrapper}>
+          <p className={classes.regionsHeader}>Области:</p>
+          <button className={classes.region}>Брестская</button>
+          <button className={classes.region}>Витебская</button>
+          <button className={classes.region}>Гомельская</button>
+          <button className={classes.region}>Гродненская</button>
+          <button className={classes.region}>Минская</button>
+          <button className={classes.region}>Могилевская</button>
         </div>
         <ReservoirCard/>
         <ReservoirCard/>

@@ -8,7 +8,7 @@
     width: 23%;
 }
 
-.reservoirInfo{
+.reservoirInfo {
     width: 77%;
     padding: 10px;
     background: rgba(243, 242, 242, 0.51);
@@ -40,6 +40,7 @@
     font-size: 16px;
     line-height: 25px;
     color: #FFAD00;
+    cursor: default;
 }
 
 .positionRegion {
@@ -50,6 +51,7 @@
     font-size: 16px;
     line-height: 25px;
     color: #6D6A6A;
+    cursor: default;
 }
 
 .allParams {
@@ -71,6 +73,7 @@
     font-size: 14px;
     line-height: 20px;
     color: #83827F;
+    cursor: default;
 }
 
 .paramsData {
@@ -82,4 +85,5 @@
     font-size: 15px;
     line-height: 22px;
     color: #4A4A4A;
+    cursor: default;
 }
