@@ -1,6 +1,7 @@
-import PageWrapper from '../components/layouts/PageWrapper'
-import classes from './MainPage/styles.module.scss'
-import TextTemplate from './MainPage/components/TextTemplate'
+import PageWrapper from 'components/layouts/PageWrapper'
+import classes from 'features/MainPage/styles.module.scss'
+import { TextTemplate } from 'features/MainPage/components'
+import { getImgUrl } from 'services'
 
 const Home = () => {
   return (
@@ -45,6 +46,14 @@ const Home = () => {
           </div>
           <div className={classes.thirdScreenRigthPart}></div>
         </div>
+      </div>
+      <div className={classes.aboutProject}>
+        <img className={classes.cshukaImgLeft} src={getImgUrl('cshuka.png')} alt="" />
+        <div className={classes.wrapper}>
+          <h2 className={classes.title}>на связи с вами</h2>
+          <p className={classes.subtitle}>Наш сервис находится на начальном этапе его становления. С каждым месяцем мы планируем его расширять и добавлять что-то новое и полезное для вас. Мы всегда открыты к вашей критике и идеям по добавлению нового функционала и изменениям в существующем. Главная наша цель - создать по-настоящему полезный интернет-ресурс для рыбаков Беларуси. По всем замечаниями и предложениям пишите нам по ссылкам ниже.</p>
+        </div>
+        <img className={classes.cshukaImgRight} src={getImgUrl('cshuka.png')} alt="" />
       </div>
     </PageWrapper>
   )

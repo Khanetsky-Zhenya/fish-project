@@ -1,0 +1,89 @@
+.reservoirCard {
+    display: flex;
+    width: 55%;
+    margin: 0 auto 15px;
+}
+
+.reservoirImage {
+    width: 23%;
+}
+
+.reservoirInfo {
+    width: 77%;
+    padding: 10px;
+    background: rgba(243, 242, 242, 0.51);
+    border: 1px solid #EEEAEA;
+}
+
+.name {
+    margin: 0;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #363333;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+.position {
+    display: flex;
+    margin: 5px 0 0 0;
+}
+
+.positionNumber {
+    margin: 0;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFAD00;
+    cursor: default;
+}
+
+.positionRegion {
+    margin: 0 0 0 5px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6D6A6A;
+    cursor: default;
+}
+
+.allParams {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.paramsBlock {
+    display: flex;
+    align-items: center;
+}
+
+.paramsName {
+    margin: 0;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #83827F;
+    cursor: default;
+}
+
+.paramsData {
+    margin: 0;
+    padding-left: 15px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4A4A4A;
+    cursor: default;
+}
