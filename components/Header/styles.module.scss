@@ -82,22 +82,32 @@
   background-color: rgb(0 0 0 /50%);
 }
 
-/*МЕДИАЗАПРОСЫ*/
-@media (min-width: 1200px) and (max-width: 1599px){
+/*Media queries*/
+@media (max-width: 1600px) {
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1400px) {
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
   .navItemCenter {
     margin: 0 25px;
   }
 }
 
+@media (max-width: 768px) {
+  .navItem {
+    font-size: 13px;
+  }
+}
+
+
 @media (max-width: 480px) {
-  .logo {
-    display: none; 
+  .info {
+    padding: 10px 0;
   }
 
   .nav {
@@ -107,6 +117,15 @@
   .authorization {
     width: 100%;
     justify-content: flex-end;
+  }
+
+  .userIcon {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .userFirstName, .userSecondName {
+    font-size: 12px;
   }
 }
 

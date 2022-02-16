@@ -17,7 +17,7 @@
     background-color: #FFAD00;
     transition: .2s;
 }
-/*МЕДИАЗАПРОСЫ*/
+/*Media queries*/
 @media (min-width: 1200px) and (max-width: 1599px){
   }
   
@@ -35,6 +35,10 @@
 }
   
 @media (max-width: 480px) {
+    .standartBtn {
+        padding: 3px 20px;
+        font-size: 9px;
+    }
 
 }
   
