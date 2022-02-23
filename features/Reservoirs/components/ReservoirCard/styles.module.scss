@@ -87,3 +87,83 @@
     color: #4A4A4A;
     cursor: default;
 }
+
+/*Media queries*/
+@media (max-width: 1600px) {
+    .reservoirCard {
+        width: 65%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .reservoirCard {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .reservoirCard {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+    .reservoirImage {
+        width: 25%;
+    }
+    
+    .reservoirInfo {
+        width: 75%;
+    }
+}
+
+@media (max-width: 480px) {
+    .reservoirCard {
+        width: 90%;
+    }
+
+    .name {
+        margin: 0;
+        font-size: 20px;
+        line-height: 12px;
+    }
+
+    .positionNumber {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .positionRegion {
+        margin: 0 0 0 5px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .allParams {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+    }
+
+    .paramsName {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    
+    .paramsData {
+        padding-left: 5px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+}
+
+@media (max-width: 360px) {
+}
