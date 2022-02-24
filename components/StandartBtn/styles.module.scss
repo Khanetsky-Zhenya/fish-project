@@ -39,8 +39,11 @@
         padding: 3px 20px;
         font-size: 9px;
     }
-
 }
   
 @media (max-width: 360px) {
+    .standartBtn {
+        padding: 3px 15px;
+        font-size: 8px;
+    }
 }

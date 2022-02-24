@@ -130,8 +130,8 @@
 
     .name {
         margin: 0;
-        font-size: 20px;
-        line-height: 12px;
+        font-size: 18px;
+        line-height: 9px;
     }
 
     .positionNumber {
@@ -157,7 +157,7 @@
     }
     
     .paramsData {
-        padding-left: 5px;
+        padding-left: 3px;
         font-weight: 500;
         font-size: 12px;
         line-height: 13px;
@@ -166,4 +166,12 @@
 }
 
 @media (max-width: 360px) {
+    
+    .reservoirImage {
+        display: none;
+    }
+    
+    .reservoirInfo {
+        width: 100%;
+    }
 }
